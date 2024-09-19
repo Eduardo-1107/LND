@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<lista>
+  <producto cod="1" categoria="Móvil" stock="si">
+    <nombre>Samsung Galaxy A55</nombre>
+    <descripcion>
+      Esta es la descripción de un Samsung Galaxy A55
+    </descripcion>
+    <precio>799€</precio>
+    <imagenProducto url="imagen de un Samsung Galaxy A55"/>
+  </producto>
+  <producto cod="2" categoria="Portatil" stock="no">
+    <nombre>Lenovo D55424</nombre>
+    <descripcion>
+      Esta es una descripción de un Lenovo D55424
+    </descripcion>
+    <precio>1359€</precio>
+    <imagenProducto url="Imagen de un Lenovo D55424"/>
+  </producto>
+  <producto cod="3" categoria="Impresora" stock="si">
+    <nombre>HP J432D5H</nombre>
+    <descripcion>
+      Esta es una descripción de una impresora HP J432D5H
+    </descripcion>
+    <precio>237€</precio>
+    <imagenProducto url="Imagen de una HP J432D5H"/>
+  </producto>
+  <producto cod="4" categoria="Movil" stock="no">
+    <nombre>iPhone 16 PRO MAX</nombre>
+    <descripcion>
+      Esta es una descripción de un iPhone 16 PRO MAX
+    </descripcion>
+    <precio>1999€</precio>
+    <imagenProducto url="Esta es una imagen de un iPhone 16 PRO MAX"/>
+  </producto>
+  <producto cod="5" categoria="Periferico" stock="si">
+    <nombre>Logitch G52</nombre>
+    <descripcion>
+      Esta es una descripción de un Logitech G52
+    </descripcion>
+    <precio>49€</precio>
+    <imagenProducto url="Imagen de un Logitech G52"/>
+  </producto>
+</lista>

@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<empleados>
+  <empleado nombre="Ana" apelllido="Garcia" edad="30" departamento="Ventas" Cargo="Ejecutivo de ventas"/>
+  <empleado nombre="Luis" apelllido="Rodriguez" edad="45" departamento="Finanzas" Cargo="Analista financiero"/>
+  <empleado nombre="Maria" apelllido="Lopez" edad="28" departamento="Marketing" Cargo="Especialista en redes sociales"/>
+</empleados>

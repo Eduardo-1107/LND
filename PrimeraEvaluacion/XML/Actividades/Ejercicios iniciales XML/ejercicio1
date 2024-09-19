@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<libros>
+<libro título="titulo1" autor="autor1" añoPublicacion="año1"/>
+<libro título="titulo2" autor="autor2" añoPublicacion="año2"/>
+<libro título="titulo3" autor="autor3" añoPublicacion="añp3"/>
+</libros>

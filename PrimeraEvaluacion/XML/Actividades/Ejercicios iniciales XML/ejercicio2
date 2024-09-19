@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<catalogo>
+  <producto>
+    <nombre>telefono movil</nombre>
+    <descripcion>
+      dispositivo electronico polivalente utilizado sobretodo para la comunicación
+    </descripcion>
+    <precio>799 €</precio>
+    <características>
+      <característica>
+        <nombreC>color</nombreC>
+        <valor>blanco</valor>
+      </característica>
+      <característica>
+        <nombreC>tamaño</nombreC>
+        <valor>mediano</valor>
+      </característica>
+    </características>
+  </producto>
+    <producto>
+    <nombre>Laptop</nombre>
+    <descripcion>
+      Pc portatil
+    </descripcion>
+    <precio>999 €</precio>
+    <características>
+      <característica>
+      <nombreC>color</nombreC>
+      <valor>negro</valor>
+      </característica>
+      <característica>
+      <nombreC>Tamaño</nombreC>
+      <valor>Grande</valor>
+      </característica>
+    </características>
+  </producto>
+</catalogo>

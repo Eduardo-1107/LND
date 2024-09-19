@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<coleccion>
+  <álbum>
+  
+    <fotografia>
+      <lugarFoto>Garachico</lugarFoto>
+      <fechaHoraFoto>14/8/2004 18:38:48</fechaHoraFoto>
+      <tipoCamara>Reflex</tipoCamara>
+      <personas>2</personas>
+      <monumento existe="si">Roque de Garachico</monumento>
+    </fotografia>
+    
+    <fotografia>
+      <lugarFoto>Los Silos</lugarFoto>
+      <fechaHoraFoto>23/02/2013 12:03:43</fechaHoraFoto>
+      <tipoCamara>Digital</tipoCamara>
+      <personas>12</personas>
+      <monumento existe="no"/>
+    </fotografia>
+    
+    <fotografia>
+      <lugarFoto>Buenavista</lugarFoto>
+      <fechaHoraFoto>25/11/2015</fechaHoraFoto>
+      <tipoCamara>Digital</tipoCamara>
+      <personas>5</personas>
+      <monumento existe="no"/>
+    </fotografia>
+    
+  </álbum>
+  
+  <álbum>
+    <fotografia>
+      <lugarFoto>Sevilla</lugarFoto>
+      <fechaHoraFoto>21/07/2022</fechaHoraFoto>
+      <tipoCamara>Digital</tipoCamara>
+      <personas>3</personas>
+      <monumento existe="no"/>
+    </fotografia>
+    
+    <fotografia>
+      <lugarFoto>Madrid</lugarFoto>
+      <fechaHoraFoto>24/07/2022</fechaHoraFoto>
+      <tipoCamara>Digital</tipoCamara>
+      <personas>4</personas>
+      <monumento existe="si">Plaza de Sol</monumento>
+    </fotografia>
+    
+    <fotografia>
+      <lugarFoto>Barcelona</lugarFoto>
+      <fechaHoraFoto>30/07/2022</fechaHoraFoto>
+      <tipoCamara>Digital</tipoCamara>
+      <personas>8</personas>
+      <monumento existe="si">Sagrada Familia</monumento>
+    </fotografia>
+    
+  </álbum>
+  
+</coleccion>
