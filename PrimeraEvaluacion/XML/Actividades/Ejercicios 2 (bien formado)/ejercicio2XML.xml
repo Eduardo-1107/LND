@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<gestor>
+<mensaje origen="emisor@ejemplo.com">
+<destinatarios numeros_destinatarios="1">
+  <destinatario>destinatario1@ejemplo.com</destinatario>
+</destinatarios>
+<asunto>Ejemplo</asunto>
+<cuerpo>Ejemplo ejemplo ejemplo</cuerpo>
+<adjuntos>
+<fichero tipo="pdf">fichero.pdf</fichero>
+</adjuntos>
+</mensaje>
+<mensaje origen="emisor2@ejemplo.com">
+<destinatarios numero_destinatarios="2">
+  <destinatario>destinatario1@ejemplo.com</destinatario>
+  <destinatario>destinatario2@ejemplo.com</destinatario>
+</destinatarios>
+<asunto>Ejemplo</asunto>
+<cuerpo>Ejemplo ejemplo ejemplo</cuerpo>
+<adjuntos>
+<fichero tipo="pdf">fichero.pdf</fichero>
+</adjuntos>
+</mensaje>
+
+
+
+
+
+
+
+
+</gestor>

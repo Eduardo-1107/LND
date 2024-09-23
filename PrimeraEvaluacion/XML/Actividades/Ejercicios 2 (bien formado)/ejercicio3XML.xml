@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<pizzeria>
+<pizza nombre="Barbacoa" precio="8">
+<ingredientes>
+  <ingrediente>Salsa Barbacoa</ingrediente>
+  <ingrediente>Queso</ingrediente>
+  <ingrediente>Pollo</ingrediente>
+  <ingrediente>Bacon</ingrediente>
+  <ingrediente>Jamón</ingrediente>
+  <ingrediente>Ternera</ingrediente>
+</ingredientes>
+</pizza>
+<pizza nombre="Hawaina" precio="7">
+<ingrediente>Tomate</ingrediente>
+<ingrediente>Mozarella</ingrediente>
+<ingrediente>Jamón</ingrediente>
+<ingrediente>Piña</ingrediente>
+<ingrediente>Queso</ingrediente>
+</pizza>
+<pizza nombre="4 Quesos" precio="7">
+<ingredientes>
+  <ingrediente>Tomate</ingrediente>
+  <ingrediente>mezcla de 4 quesos</ingrediente>
+</ingredientes>
+</pizza>
+<pizza nombre="Margarita" precio="6">
+<ingredientes>
+  <ingrediente>Tomate</ingrediente>
+  <ingrediente>Jamón</ingrediente>
+  <ingrediente>Queso</ingrediente>
+</ingredientes>
+</pizza>
+</pizzeria>
