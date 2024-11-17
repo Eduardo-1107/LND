@@ -1,0 +1,23 @@
+<!ELEMENT curriculums (curriculo*)>
+  <!ELEMENT curriculo (datosPersonales, idiomas*)>
+    <!ATTLIST curriculo dni ID #REQUIRED
+                                          fechaCv NMTOKEN #REQUIRED>
+      <!ELEMENT datosPersonales (nombre,apellidos,fechaNac,direcciones?)>
+        <!ELEMENT nombre (#PCDATA)>
+        <!ELEMENT apellidos (apellido1,apellido2)>
+          <!ELEMENT apellido1 (#PCDATA)>
+          <!ELEMENT apellido2 (#PCDATA)>
+        <!ELEMENT fechaNac (#PCDATA)>
+        <!ELEMENT direcciones (direccion?,direccion?)>
+          <!ELEMENT direccion (calle,localidad,codigoPostal,pais,(trabajo | particular))>
+            <!ELEMENT calle (#PCDATA)>
+            <!ELEMENT localidad (#PCDATA)>
+            <!ELEMENT codigoPostal (#PCDATA)>
+            <!ELEMENT pais (#PCDATA)>
+            <!ELEMENT trabajo EMPTY >
+            <!ELEMENT particular EMPTY>
+  <!ELEMENT idiomas (materno | extranjero)>
+    <!ATTLIST idiomas nombreIdioma CDATA #REQUIRED
+                                        nivel (alto | medio | bajo) #REQUIRED>
+    <!ELEMENT materno EMPTY>
+    <!ELEMENT extranjero EMPTY>

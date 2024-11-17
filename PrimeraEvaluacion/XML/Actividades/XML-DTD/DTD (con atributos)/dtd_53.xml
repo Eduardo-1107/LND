@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>                            
+<!DOCTYPE resultados [
+<!ELEMENT resultados (partido)*>
+<!ELEMENT partido EMPTY>
+<!ATTLIST partido equipoLocal NMTOKENS #REQUIRED
+                                equipoVisitante NMTOKENS #REQUIRED
+                                golesLocal NMTOKEN #REQUIRED
+                                golesVisitante NMTOKEN #REQUIRED
+  >
+]>
+<resultados>
+<partido equipoLocal="Nottingham Presa" equipoVisitante="Inter de Mitente" golesLocal="0" golesVisitante="1"/>
+<partido equipoLocal="Vodka Juniors" equipoVisitante="Sparta da Risa" golesLocal="3" golesVisitante="3"/>
+<partido equipoLocal="Water de Munich" equipoVisitante="Esteaua de del grifo" golesLocal="4" golesVisitante="2"/>
+</resultados>

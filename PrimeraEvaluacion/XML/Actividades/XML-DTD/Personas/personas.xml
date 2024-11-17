@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE personas [
+<!ELEMENT personas (persona+)>
+  <!ELEMENT persona (nombre,nacimiento?,direccion+,varon?)>
+    <!ELEMENT nombre (#PCDATA)>
+    <!ELEMENT nacimiento EMPTY>
+      <!ATTLIST nacimiento dia NMTOKEN #REQUIRED
+                                            mes NMTOKEN #REQUIRED
+                                            año NMTOKEN #REQUIRED>
+    <!ELEMENT direccion (calle,poblacion,provincia,cpostal)>
+      <!ELEMENT calle (#PCDATA)>
+      <!ELEMENT poblacion (#PCDATA)>
+      <!ELEMENT provincia (#PCDATA)>
+      <!ELEMENT cpostal (#PCDATA)>
+    <!ELEMENT varon EMPTY>
+]>
+<personas>
+<persona>
+<nombre>Juan Pardo</nombre>
+<nacimiento dia="10" mes="Abril" año="1982"/>
+<direccion>
+  <calle>caoba,1</calle>
+  <poblacion>Madrid</poblacion>
+  <provincia>Madrid</provincia>
+  <cpostal>28005</cpostal>
+</direccion>
+<varon/>
+</persona>
+
+<persona>
+<nombre>Javier</nombre>
+<direccion>
+  <calle>milan,11</calle>
+  <poblacion>Sevila</poblacion>
+  <provincia>Sevilla</provincia>
+  <cpostal>22345</cpostal>
+</direccion>
+<direccion>
+  <calle>Sevilla,13</calle>
+  <poblacion>Barcelona</poblacion>
+  <provincia>Barcelona</provincia>
+  <cpostal>28435</cpostal>
+</direccion>
+<varon/>
+</persona>
+
+<persona>
+<nombre>Maria</nombre>
+<nacimiento dia="11" mes="Mayo" año="1992"/>
+<direccion>
+  <calle>caoba,1</calle>
+  <poblacion>Madrid</poblacion>
+  <provincia>Madrid</provincia>
+  <cpostal>28005</cpostal>
+</direccion>
+</persona>
+</personas>

@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE curriculums SYSTEM "curriculum.dtd">
+<curriculums>
+<curriculo dni="x-12345678" fechaCv="18-10-2024">
+  <datosPersonales>
+    <nombre>Juan</nombre>
+    <apellidos>
+      <apellido1>Baute</apellido1>
+      <apellido2>Sevilla</apellido2>
+    </apellidos>
+    <fechaNac>11/01/1975</fechaNac>
+    <direcciones>
+      <direccion>
+        <calle>c/no se</calle>
+        <localidad>Pueblo cualquiera</localidad>
+        <codigoPostal>12345</codigoPostal>
+        <pais>España</pais>
+        <trabajo/>
+    </direccion>
+      <direccion>
+        <calle>c/ ni idea</calle>
+        <localidad>Pueblo Dormitorio</localidad>
+        <codigoPostal>54321</codigoPostal>
+        <pais>España</pais>
+        <particular/>
+    </direccion>
+  </direcciones> 
+  </datosPersonales>
+  <idiomas nombreIdioma="Español" nivel="alto">
+    <materno/>
+  </idiomas>
+  <idiomas nombreIdioma="Ingles" nivel="medio">
+    <extranjero/>
+  </idiomas>
+</curriculo>
+<curriculo dni="x-87654321" fechaCv="19-10-2024">
+  <datosPersonales>
+    <nombre>Aday</nombre>
+    <apellidos>
+      <apellido1>Perez</apellido1>
+      <apellido2>Cáceres</apellido2>
+    </apellidos>
+    <fechaNac>11/07/1995</fechaNac> 
+  </datosPersonales>
+</curriculo>
+</curriculums>
