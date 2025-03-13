@@ -1,0 +1,12 @@
+p.uno {
+    border: solid, red, 5px;
+    padding: 0;
+}
+p.dos {
+    border: solid, blue, 5px;
+    padding: 25px;
+}
+p.tres {
+    border: solid, green, 5px;
+    padding: 50px;
+}

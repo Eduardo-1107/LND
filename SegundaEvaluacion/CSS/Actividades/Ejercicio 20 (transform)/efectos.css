@@ -1,0 +1,49 @@
+body {
+    font-family:Arial, Helvetica, sans-serif
+}
+div {
+    background-color: ffa500;
+    width: 15em;
+    margin: 2em;
+    text-align: center;
+    padding: 10;
+    border-radius:2em;
+    border-style: solid;
+    float: left;
+}
+img {
+    margin-top: .5em;
+}
+#rotar1 {
+    transform: rotate(30deg);
+}
+#rotar2 {
+    transform: rotate(-30deg);
+}
+#escala1 {
+    transform: scale(0.5);
+}
+#escala2 {
+    transform: scaley(1.5);
+}
+#skewX1 {
+    transform: skewX(20deg);
+}
+#skewX2 {
+    transform: skewX(-20deg);
+}
+#skewY1 {
+    transform: skewY(20deg);
+}
+#skewY2 {
+    transform: skewY(-20deg);
+}
+#translate1 {
+    transform: translate(5em,5em);
+}
+#translate2 {
+    transform: translateY(-2em);
+}
+#contentBox1:hover{
+    transform: skewX(-20deg);
+}

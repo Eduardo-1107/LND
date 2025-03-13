@@ -1,0 +1,11 @@
+a {
+    color: #CC0000;
+}
+a:hover {
+    color:#FFF;
+    text-decoration: solid;
+    background-color: #CC0000;
+}
+a:visited {
+    color:#CCC;
+}

@@ -1,0 +1,41 @@
+div {
+    margin-bottom: 10px;
+}
+div.uno {
+
+    border-top:dotted green 5px;
+    border-left: dashed blue 5px;
+    border-bottom: dotted red 5px;
+    border-right: dashed orange 5px;
+
+    padding: 10px;
+}
+div.dos {
+
+    border-top:solid #00ffff 5px;
+    border-left: solid #000 10px;
+    border-right: solid #000 10px;
+    border-bottom: solid #ffc0cb 5px;
+
+    padding: 10px;
+}
+p.dos {
+
+    border-top:solid #00ffff 5px;
+    border-left: solid #000 10px;
+    border-right: solid #000 10px;
+    border-bottom: solid #ffc0cb 5px;
+
+    padding: 10px;
+    margin: 0;
+}
+div.tres {
+    border: dotted green;
+    padding: 10px;
+    margin: 0;
+}
+p.tres {
+    border: dotted green;
+    padding: 10px;
+    margin: 0;
+}

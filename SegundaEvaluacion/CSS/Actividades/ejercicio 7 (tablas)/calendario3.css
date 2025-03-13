@@ -1,0 +1,40 @@
+body {
+    font-family: sans-serif;
+    background-color: #95e1ff;
+}
+.nov14 {
+    background-color: #ffffe0;
+    margin-left: 2em;
+    width: 19em;
+    height: 15em;
+    border: solid;
+    padding: 2em;
+}
+table {
+    text-align: center;
+
+    border-collapse: collapse;
+}
+caption {
+    font-variant: small-caps;
+    letter-spacing: .5em;
+    text-align: left;
+    margin-bottom: .5em;
+
+}
+
+tr {
+    border: solid 1px ;
+}
+td {
+    border: solid 1px ;
+    font-size: x-small;
+    vertical-align:top;
+    text-align: left;
+    width: 40px;
+    height: 40px;
+
+}
+th {
+    border: solid 1px ;
+}

@@ -1,0 +1,95 @@
+.cabecera {
+    text-align: end;
+    background-color: #669966;
+    text-transform: uppercase;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: x-small;
+    margin-bottom: 0;
+}
+h1 {
+    background-color:#d4b8b8 ;
+    margin-top: 0;
+    font-family:sans-serif;
+    text-decoration: underline;
+    text-align: center;
+    font-variant: small-caps;
+    letter-spacing: 1vh;
+}
+body {
+    background-color: #e2ddd8;
+    font-family: sans-serif;
+}
+.intro{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: justify;
+    text-indent: 2em;
+    width: 80%;
+    margin: auto;
+    border-left: dotted;
+    border-right: dotted;
+    padding:.2em 1em;
+    word-spacing: .3em;
+    font-weight: bold;
+    border-color: #669966;
+    border-width: 0.2em;
+}
+.par {
+    background-color: #660000;
+    width: 75%;
+    margin-left: 23%;
+    margin-top: 2em;
+    padding: .2em;
+}
+.par h2 {
+    color: white;
+    margin: 0;
+    padding: 0.2em;
+
+}
+.par p {
+    background-color: #d4b8b8;
+    margin:0;
+    text-indent: 2em;
+    padding: 1em;
+}
+.impar {
+    background-color: #669966;
+    width: 75%;
+    margin-left: 1.5%;
+    margin-top: 2em;
+    padding: .2em;
+}
+.impar h2 {
+    color: white;
+    margin: 0;
+    padding: 0.2em;
+
+}
+.impar p {
+    background-color: #c8dac8;
+    margin:0;
+    text-indent: 2em;
+    padding: 1em;
+}
+.organismo {
+    background-color: #000;
+    color: #fff;
+}
+.proyecto {
+    font-style: italic;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-bottom: dashed white 2px;
+    font-weight: 500;
+}
+.persona {
+    font-weight: bold;
+    text-decoration: underline;
+}
+address {
+    background-color: #d4b8b8;
+    margin-top: 1em;
+    padding-left: .5em;
+    border-top: double #660000;
+    
+}
