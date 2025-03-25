@@ -1,0 +1,21 @@
+p.uno {
+    border-style: solid;
+    border-width: 5px;
+    border-color: red;
+    width: 250px;
+    height: 200px;
+    background-color: rgb(211, 211, 211);
+    padding: 10px;
+    margin: 25px;
+}
+ p.dos {
+    width: 300px;
+    height: 200px;
+    border-style: solid;
+    border-color: rgb(0, 128, 0);
+    border-width: 7px;
+    background-color: rgb(128, 128, 128);
+    padding: 5px;
+    margin: 0;
+    color: #ffffff;;
+ }

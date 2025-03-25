@@ -1,0 +1,11 @@
+td {
+    width: 8vh;
+    height: 8vh;
+    border-style: solid;
+}
+table {
+    border-collapse: collapse;
+}
+td:nth-child(2n + 1){
+    background-color: #000;
+}

@@ -1,0 +1,47 @@
+body {
+    margin: auto;
+    width: 80%;
+    background-color: #666666;
+}
+li {
+    float: left;
+    width: 10em;
+    height: 10em;
+    margin: 2em;
+    list-style: none;
+    font-family: sans-serif;
+    box-shadow: 2px 2px 5px;
+    transition: all 1s;
+    
+}
+a {
+    text-decoration: none;
+    color:#000;
+}
+h2 {
+    font-size: medium;
+    text-align: left;
+    padding: 1em;
+}
+p {
+    text-align: center;
+    font-size: large;
+}
+li:nth-child(4n + 1), li:nth-child(7) {
+     background-color: #ffffcc;
+     transform: rotate(-5deg);
+}
+li:nth-child(2n), li:nth-child(8) {
+    background-color: #ccffcc;
+    transform: rotate(3deg);
+}
+li:nth-child(3n) {
+    background-color:#ccccff ;
+    transform: rotate(-3deg);
+}
+li:hover {
+    
+    transform: rotate(0) scale(120%);
+
+}
+

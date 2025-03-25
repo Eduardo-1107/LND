@@ -1,0 +1,12 @@
+
+.fondo {
+    background: 
+        url(imagen1.png) no-repeat 5em 5em / 3em, 
+        url(imagen2.png) no-repeat right bottom / 10em,
+        url(fondo.jpg) no-repeat 0 0 / cover;
+    text-align: center;
+    font-size: x-large;
+    color: white;
+    background-position: 0 0, ;
+    height:100% ;
+}

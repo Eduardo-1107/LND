@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Contact</h1>
+    <p>Escribe!</p>
+    <form action="#" method="post">
+        <fieldset>
+            <legend><strong>Información</strong></legend>
+            <label for="nombre">Nombre</label>
+            <input type="text" name="nombre" id="nombre"/><br><br>
+            <label for="email">Email</label> 
+            <input type="text" name="email" id="email"/><br><br>
+            <label for="telefono">Teléfono</label>
+            <input type="text" name="telefono" id="telefono"/><br><br>
+            <label for="direccion">Dirección</label>
+            <input type="text" name="direccion" id="direccion"/><br><br>
+            <label for="comunidad">Comunidad</label>
+            <select name="comunidad" id="comunidad">
+                <option value="0"></option>
+                <option value="1">Andalucía</option>
+                <option value="2">Aragón</option>
+                <option value="3">Canarias</option>
+                <option value="4">Comunidad Floral de Navarra</option>
+            </select> <br><br>
+            <label for="cp">Código Postal</label>
+            <input type="text" name="cp" id="cp"/><br><br>
+        </fieldset>    
+        <fieldset>
+            <label for="info" id="info">Pincha para recibir Información:</label>
+            <input type="checkbox" name="info" id="info"> <br><br>
+            <div>
+                <input type="checkbox" name="info" id="tenerife">
+                <label for="tenerife">Tenerife</label> <br><br>
+    
+                <input type="checkbox" name="info" id="tenerife2">
+                <label for="tenerife2">Tenerife Calma</label> <br><br>
+    
+                <input type="checkbox" name="info" id="tenerife3">
+                <label for="tenerife3">Tenerife playas</label> <br><br>
+    
+                <input type="checkbox" name="info" id="tenerife4">
+                <label for="tenerife4">Bici Tenerife</label> <br><br>
+    
+                <input type="checkbox" name="info" id="tenerife5">
+                <label for="tenerife5">Tenerife Mar</label> <br><br><br>
+            </div>
+
+            <input type="submit" value="Enviar"> <br><br>
+
+        </fieldset>
+    </form>
+</body>
+</html>

@@ -1,0 +1,21 @@
+table {
+    border: solid 1px;
+    width: 30em;
+    height: 30em;
+}
+td {
+    border: solid 1px;
+}
+tr:nth-child(odd) td:nth-child(even), tr:nth-child(even) td:nth-child(odd) {
+    background-color: #000;
+}
+tr:nth-child(2) td {
+    background-image: url(Piezas/Peon-Negro.png);
+    background-position: center;
+    background-size: contain;
+}
+tr:nth-child(7) td {
+    background-image: url(Piezas/Peon-Blanco.png);
+    background-position: center;
+    background-size: contain;
+}

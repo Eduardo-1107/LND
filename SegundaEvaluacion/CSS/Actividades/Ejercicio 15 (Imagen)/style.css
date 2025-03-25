@@ -1,0 +1,41 @@
+body {
+    width: 70%;
+    margin: auto;
+    font-family: sans-serif;
+}
+h1 {
+    text-align: center;
+}
+#imagen {
+    margin: auto;
+    position: relative;
+}
+img {
+    width: 100%;
+}
+.descripcion {
+    position: relative;
+    bottom: 4em;
+    padding:1em;
+    background-color: #ffffff71;
+    font-style: italic;
+    text-transform: uppercase;
+    text-align: center;
+    
+}
+.fecha {
+    padding:1em;
+    display:none;
+    background-color: #37ff00;
+    font-style: italic;
+    text-transform: uppercase;
+    text-align: center;
+    position: relative;
+}
+.descripcion:hover {
+    bottom: 7em;
+}
+.descripcion:hover + .fecha {
+    bottom: 8em;
+    display:block;
+}

@@ -1,0 +1,44 @@
+body {
+    font-family: sans-serif;
+    width: 60%;
+    margin: auto;
+}
+div {
+    border: solid;
+    width: 15em;
+    height: 4em;
+    margin: 1em 2em;
+    float: left;
+    background-color: #ffff00;
+    border-radius: 1em;
+}
+#c1 {
+    box-shadow: -.3em -.3em inset;
+}
+#c2 {
+    box-shadow: -5px -5px 0 10px inset;
+}
+#c3 {
+    box-shadow: 10px 10px 0 inset;
+}
+#c4 {
+    box-shadow: 10px 10px 15px inset;
+}
+#c5 {
+    box-shadow: 1em 1em inset;
+}
+#c6 {
+    box-shadow: 1em 1em .5em inset;
+}
+#c7 {
+    box-shadow: 1em 1em 0 0 darkred inset;
+}
+#c8 {
+    box-shadow: 0 0 1em darkred inset;
+}
+#c9 {
+    box-shadow: 1em 1em 1em  darkred inset;
+}
+#c10 {
+    box-shadow: 0 0 1em 10px darkred inset;
+}

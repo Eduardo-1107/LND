@@ -1,0 +1,42 @@
+#vinilo {
+    width: 300px;
+    height: 300px;
+}
+
+#caratula {
+    position: absolute;
+    z-index: 1;
+}
+#disco {
+ position: absolute;
+ z-index: 0;
+ transition: all 2s;
+}
+#vinilo:hover #disco {
+    transform: translateX(9em) rotate(180deg)
+}
+#nombreDisco {
+    background-color: rgba(0, 0, 0, 0);
+    width: 6em;
+    text-align: center;
+    color: #ffffff00;
+    z-index: 3;
+    position: absolute;
+    bottom:28em;
+    font-size: 1.3em;
+    transition: all 1s;
+}
+#vinilo:hover #nombreDisco {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #ffffff;
+
+}
+#Grupo {
+    position: absolute;
+    top: 17.5em;
+    font-size: 17px;
+}
+.contenedor {
+    width: 50%;
+    
+}

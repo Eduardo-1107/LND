@@ -1,0 +1,50 @@
+body {
+    font-family: sans-serif;
+}
+h1, h2 {
+    margin: 0;
+}
+h1 {
+    background-color: #bbbbbb;
+    padding-left: .3em;
+}
+h2 {
+    background-color: #dddddd;
+    text-align: end;
+    height: 1.5em;
+    border-bottom: dashed #bbbbbb;
+}
+.bloque {
+    margin: 1em;
+    float: left;
+    width: 10em;
+    border-left: dashed #bbbbbb;
+    border-right: dashed #bbbbbb;
+    padding: 0 1em;
+}
+h3 {
+    background-color:#eeeeee;
+    text-transform: uppercase;
+    text-align: center;
+    height: 2em;
+    font-size: large;
+    margin-top: 0;
+    justify-content: center;
+    align-items: center;
+    display: flex;   
+}
+h4 {
+    margin: 0;
+    background-color: #bbbbbb;
+    color: #FFF;
+    text-align: right;
+}
+
+div p {
+    margin: .4em 1em;
+}
+div div {
+    border: solid thin;
+    margin: .5em 0;
+    overflow: auto;
+}

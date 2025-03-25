@@ -1,0 +1,34 @@
+h1 {
+    text-align: center;
+}
+.contenedor {
+    width: 50%;
+    margin: auto;
+    
+}
+img {
+    position: relative;
+    
+}
+img:hover {
+    border: solid red;
+}
+img:active {
+    z-index: 6;
+}
+#cj {
+    top: 1em;
+    right: 3.5em;
+}
+#cq {
+    top: 2em;
+    right: 7em;
+}
+#ck {
+    top: 3em;
+    right: 10.5em;
+}
+#cas {
+    top: 4em;
+    right: 14em;
+}

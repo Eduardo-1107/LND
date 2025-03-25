@@ -1,0 +1,29 @@
+.contenedor {
+    width: 50%;
+    margin: 0 auto;
+    position: relative;     
+}
+#yoyo {
+    z-index: 1;
+    transition: all .8s ease-in-out;
+    width: 3em;
+    position: relative;
+}
+#contenedorYoyo{
+    left: 8.55em;
+    top: 12.5em;
+    position: absolute; 
+    overflow: hidden;
+}
+#nino {
+    width: auto;
+    position: absolute;
+    max-width: 400px;
+    z-index: 0;
+}
+.contenedor:hover  #yoyo {
+    transform: translateY(-5em);
+
+}
+
+

@@ -1,0 +1,27 @@
+body {
+    width: 30%;
+    margin: auto;
+}
+.fecha {
+    position: relative; 
+}
+.dia {
+    color: red;
+    position: absolute;
+    font-size: 50;
+    top: .8em;
+    left: .5em;
+}
+.mes {
+    position: absolute;
+    font-size: 40;
+    text-shadow: 4px 4px 6px red, 8px 8px 6px green, 12px 12px 6px blue;
+    
+} 
+.anio {
+    position: absolute;
+    font-size: 40;
+    left: 2em;
+    top: .9em;
+    transform: rotate(-90deg);
+}

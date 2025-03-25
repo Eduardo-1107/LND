@@ -1,0 +1,32 @@
+body {
+    weight: 80%;
+    margin: auto;
+    font-family: sans-serif;
+    background-color:#fddbbd ;
+}
+h1 {
+    color: #b0b0b0;
+    text-transform: uppercase;
+    text-align: center;
+}
+p {
+    width: 30vh;
+    height: 30vh;
+    float: left;
+    border:dashed thin #c9a568;
+    background-color: #f2d0ab;
+    margin: 1em;
+    font-style: italic;
+    text-align: justify;
+    padding: 1vh;
+    line-height: 1.5em;
+
+    
+}
+p::first-letter {
+    color: #c9a568;
+    font-size: 6vh;
+    font-style: normal;
+    float: left;
+    
+}
