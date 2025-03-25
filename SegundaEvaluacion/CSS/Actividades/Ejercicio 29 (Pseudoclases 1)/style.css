@@ -1,0 +1,24 @@
+
+input {
+    display: none;
+}
+
+input:checked ~ label {
+    transform: scale(1.2);
+    color: white;
+    border: solid black;
+    background-color: red;
+    transition: transform .5s ;
+}
+
+label {
+    display: inline-block;
+    padding: 1em;
+    border: solid;
+    
+}
+div { 
+    width: 20%;
+    float: left;
+    margin: 2em 3em;
+}

@@ -1,0 +1,37 @@
+input {
+ display: none;
+}
+label {
+    display: inline-block;
+    margin: 2em;
+    border: solid thin;
+    padding: .5em 1em;
+    background-color: #cccccc;
+    
+} 
+div {
+    float: left;
+    position: relative;
+    
+}
+
+div div {
+    border: solid thin;
+    background-color: #cccccc;
+    width: 6em;
+    height: 8em;
+    position: absolute;
+    padding: .5em;
+    left: 1.5em;
+    transform: rotateY(90deg);
+    transition: all 1s;
+    
+}
+
+input:checked ~ label {
+    background-color: #86d99b;
+}
+input:checked ~ div {
+    transform: rotateY(0deg);
+    
+}
