@@ -1,0 +1,23 @@
+.contenedor {
+    width: 50%;
+    margin: auto;
+}
+img {
+    width: 100%;
+}
+
+#pre {
+    width: 100%;
+}
+#pre img {
+    width: 600px;
+    height: 500px;
+}
+#galeria {
+    width: 100%;
+}
+#galeria img {
+    width: 200px;
+    height: 200px;
+    float: left;
+}
