@@ -1,0 +1,33 @@
+body {
+    font-family: sans-serif;
+}
+
+
+form, .contenedor {
+    width: 70%;
+    margin: auto;
+}
+
+#texto {
+    width: 100%;
+    height: 3em;
+    text-align: center;
+    font-size: large;
+}
+
+.botones {
+    margin-top: 2em;
+ 
+}
+
+.botones input {
+    width: 100%;    
+    height: 2em;
+    margin-top: .5em;
+    
+}
+
+.contenedor {
+    margin-top: 2em;
+    display: none;
+}
