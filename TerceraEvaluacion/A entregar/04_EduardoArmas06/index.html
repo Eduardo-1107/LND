@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Lista</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form>
+        <input type="text" name="texto" id="texto" placeholder="Escribe para añadir a la lista...">
+        <div class="botones">
+            <input type="button" value="Añadir al final" onclick="AñadirFinal()">
+            <input type="button" value="Añadir al principio" onclick="AñadirPrincipio()">
+            <input type="button" value="Borrar el primero" onclick="BorrarPrimero()">
+            <input type="button" value="Borrar el último" onclick="BorrarUltimo()">
+            <input type="button" value="Borrar todos" onclick="BorrarTodo()">
+        </div>
+    </form>
+    
+    <div class="contenedor">
+        <h1>LISTA</h1>
+        <ul class="lista"></ul>
+    </div>
+    <script src="script.js"></script>
+    
+</body>
+</html>
